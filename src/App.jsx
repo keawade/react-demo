@@ -7,8 +7,9 @@ class App extends Component {
   }
 
   render() {
+    const thing = "Hey!"
     return (
-      <div>This is only a test</div>
+      <div>thing {thing}</div>
     )
   }
 }
